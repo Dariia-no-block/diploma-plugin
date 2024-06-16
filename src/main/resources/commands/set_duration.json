@@ -1,0 +1,12 @@
+{
+  "name": "set_duration",
+  "description": "Set the duration for the test",
+  "options": [
+    {
+      "name": "duration",
+      "description": "Duration of the test in minutes",
+      "type": 4,
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "submit_question",
+  "description": "Submit the details of a question for a selected test",
+  "options": [
+    {
+      "name": "question",
+      "description": "The text of the question",
+      "type": 3,
+      "required": true
+    },
+    {
+      "name": "options",
+      "description": "The answer options, separated by commas",
+      "type": 3,
+      "required": true
+    },
+    {
+      "name": "correct_option",
+      "description": "The index of the correct option (starting from 0)",
+      "type": 4,
+      "required": true
+    }
+  ]
+}

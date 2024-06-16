@@ -1,0 +1,12 @@
+{
+  "name": "create_group",
+  "description": "Create a new group.",
+  "options": [
+    {
+      "name": "group_name",
+      "description": "Name of the group",
+      "type": 3,
+      "required": true
+    }
+  ]
+}

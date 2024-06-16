@@ -1,0 +1,18 @@
+{
+  "name": "register",
+  "description": "Registration of new user.",
+  "options": [
+    {
+      "name": "name",
+      "description": "Your name",
+      "type": 3,
+      "required": true
+    },
+    {
+      "name": "lastname",
+      "description": "Your Lastname",
+      "type": 3,
+      "required": true
+    }
+  ]
+}
