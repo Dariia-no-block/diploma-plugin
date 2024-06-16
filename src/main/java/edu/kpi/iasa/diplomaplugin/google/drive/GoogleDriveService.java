@@ -25,7 +25,7 @@ public class GoogleDriveService {
 
 	private static final JsonFactory JSON_FACTORY = GsonFactory.getDefaultInstance();
 
-	@Value("${drive.credentials}")
+	@Value("${drive.credentials.file.path}")
 	private String SERVICE_ACCOUNT_KEY_PATH;
 
 	@Value("${drive.folder.id}")
